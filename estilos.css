@@ -1,10 +1,14 @@
-#body {
-font-size:56px;
-font-style:oblique;
+.OwO {
+
+
 }
 
 .uwu {
-
-
-  
+list-style: none;
+text-align: left;
+background: #68BBCE;
+border-radius: 20px;
+border-color: #2CA1BB;
+border-style: inset;
+border-width: 20px;
 }
