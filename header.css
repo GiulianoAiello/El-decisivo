@@ -1,3 +1,11 @@
+body{
+user-scalable: yes;
+background-color: #C9EB8F;
+
+}
+
+
+
 ul {
 list-style-type: none;
 text-align: center;
@@ -5,17 +13,15 @@ overflow: hidden;
 background-color: #F08080;
 border-radius: 30px;
 
-
-
 }
 
 li {
 float: left;
 transition: 0s;
-
+overflow-x: hidden;
 }
 
-li a {
+li .uwu {
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 30px;
@@ -27,9 +33,10 @@ transition: 1s;
 font-family: 'Open Sans', sans-serif;
 font-style: italic;
 margin:0;
+overflow:hidden;
 }
 
-li a:hover{
+li .uwu:hover{
 background-color: #CD5C5C;
 border-radius: 30px;
 padding-top: 15px;
@@ -47,5 +54,42 @@ font-style: italic;
 
 .facha {
 margin-left: 45em;
+
+}
+
+.chuli {
+display:block;
+margin-right: 5px;
+padding-top: 11px;
+font-weight: bold;font-style: italic;font-family: 'Roboto', sans-serif;font-size: 25px;
+text-decoration: none;
+color: white;
+text-shadow: 4px 4px 4px #CD5C5C;
+transition: 2s;
+position: absolute;
+left: 1200px;
+
+
+}
+
+.chuli:hover {
+  padding-top: 7px;
+  font-size: 30px;
+  transition: 2s;
+}
+
+
+.texto {
+position: absolute;
+left: 1000px;
+top: 200px;
+margin:10px;padding:10px;border:10px;
+border:auto;
+border-color: #F08080;
+border-style: solid;
+
+
+
+
 
 }

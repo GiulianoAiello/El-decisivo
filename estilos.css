@@ -1,3 +1,11 @@
+body {
+width: 30%;
+
+
+}
+
+
+
 ul {
 list-style-type: none;
 text-align: center;
@@ -7,15 +15,18 @@ border-radius: 15px;
 
 
 
+
 }
 
 li {
+
 float: left;
 transition: 0s;
 
 }
 
 li a {
+
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 30px;
@@ -46,5 +57,12 @@ font-style: italic;
 
 .facha {
 margin-left: 45em;
+
+}
+
+.texto {
+position: absolute;
+float: left;
+
 
 }
