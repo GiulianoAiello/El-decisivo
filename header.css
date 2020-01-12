@@ -1,7 +1,8 @@
+
+
 body{
 user-scalable: yes;
-background-color: #C9EB8F;
-
+background-image: url(fondo.jpg)
 }
 
 
@@ -81,12 +82,20 @@ left: 1200px;
 
 .texto {
 position: absolute;
-left: 1000px;
-top: 200px;
+left: 940px;
+top: 160px;
 margin:10px;padding:10px;border:10px;
 border:auto;
 border-color: #F08080;
 border-style: solid;
+border-radius: 20px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;font-style: oblique;color: #3D3C3C;
+overflow-x: scroll;
+max-height: 400px;
+max-width: 400px;
+
+
 
 
 
